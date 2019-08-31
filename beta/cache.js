@@ -46,7 +46,7 @@ function parseCache(id) {
     }
     return {
         cache: item,
-        type: type
+        type: type,
         time: parseInt(localStorage["_CacheTime_"+CACHE.ver+"_"+id], 36)
     };
 }
